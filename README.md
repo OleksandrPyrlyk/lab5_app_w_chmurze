@@ -16,4 +16,4 @@ docker build --build-arg VERSION=1.0 -t lab5web .
 docker run -d -p 8080:80 --name lab5container lab5web
 
 ## Sprawdzenie działania
-curl http://localhost:8080
+http://localhost:8080
